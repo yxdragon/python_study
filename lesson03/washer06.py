@@ -32,7 +32,7 @@ def wash_dry(obj, level='low', times=1):
     dry(times)
     print('%s 洗干净了'%obj)
     
-
-wash_dry('衣服')
-wash_dry('毛毯', 'high', 3)
-wash_dry('被套', times=2)
+if __name__ == '__main__':
+    wash_dry('衣服')
+    wash_dry('毛毯', 'high', 3)
+    wash_dry('被套', times=2)
